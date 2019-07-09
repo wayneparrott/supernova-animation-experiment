@@ -1,0 +1,38 @@
+{
+  "name": "supernova-animation-experiment",
+  "version": "0.0.1",
+  "description": "Point cloud animation built with three.js, TypeScript, WebPack and CodeMix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --inline "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wayneparrott/supernova-animation-experiment"
+  },
+  "keywords": [],
+  "author": "Wayne Parrott",
+  "license": "MIT",
+  "homepage": "https://github.com/wayneparrott/supernova-animation-experiment/",
+  "devDependencies": {
+    "awesome-typescript-loader": "latest",
+    "browser-sync": "latest",
+    "browser-sync-webpack-plugin": "latest",
+    "css-loader": "latest",
+    "extract-text-webpack-plugin": "latest",
+    "html-webpack-plugin": "latest",
+    "json-loader": "latest",
+    "progress-bar-webpack-plugin": "latest",
+    "style-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "latest"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.2",
+    "three": "^0.105.2"
+  }
+}
