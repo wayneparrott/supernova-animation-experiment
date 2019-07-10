@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "rxjs": "^6.5.2",
-    "three": "^0.105.2"
+    "three": "^0.105.2",
+    "three-component-ts": "0.0.3"
   }
 }
