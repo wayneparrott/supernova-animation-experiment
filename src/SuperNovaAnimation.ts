@@ -202,7 +202,7 @@ export class SuperNovaAnimation {
 
             const ptInfo = this.ptsInfos[i];
 
-            // fade-in points
+            // fade-in points, why not an indexed api on color to avoid this silly switch????
             if (this.state == TIMELINE.FADE_IN) {
                 let color: number;
                 for (let j = 0; j < 3; j++) {
@@ -217,7 +217,6 @@ export class SuperNovaAnimation {
                             color = ptInfo.color.b;
                             break;
                     }
-
 
                     color =
                         Math.min(
