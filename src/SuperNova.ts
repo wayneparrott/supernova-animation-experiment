@@ -1,4 +1,4 @@
-import { ThreeComponent } from "./three.component";
+import { ThreeComponent } from "three-component-ts";
 import { random } from "./Util";
 import { SuperNovaAnimation } from "./SuperNovaAnimation";
 

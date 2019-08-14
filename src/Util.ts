@@ -1,4 +1,4 @@
-import { Texture, Vector3 } from "./three.component";
+import { Texture, Vector3 } from "three-component-ts";
 import { MinEquation, Color, Vector2 } from "three";
 
 // export enum MODE { DARK, LIGHT };

@@ -1,4 +1,4 @@
-import { Color, BufferGeometry, BufferAttribute, ShaderMaterial, Points, Scene } from "three";
+import { Color, BufferGeometry, BufferAttribute, ShaderMaterial, Points, Scene } from "three-component-ts";
 import { AnimatedVector, createCircleTexture, randomPointInCircle, random, flipCoin, RGB_COLORS } from "./Util";
 import { Subject, Observable } from 'rxjs';
 
